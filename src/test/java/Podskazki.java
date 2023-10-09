@@ -3,6 +3,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import tests.data.StaticProvider;
+import utils.Retry;
 
 import java.util.List;
 
@@ -39,6 +40,12 @@ public class Podskazki {
     //@Test(dependsOnMethods = {"stepd", "stepa"}) // ставим{} и указываем от каких методов может зависит от одного или второго
 
     //@Test (priority = 1) //priority = 1 -начальное значение 0 у всех
+
+    //@Test (groups = "smoke") - указываем группу тестов для запуска ее по группам  Так же можно указывать несколько групп
+
+    //@Test (retryAnalyzer = Retry.class) когда сделан Retry и указываем что тест retryAnalyzer повторяется энное количество раз
+
+
 
 //    @Test (expectedExceptions = NullPointerException.class) //expectedExceptions - ожидаемый результат, если он пришел то тест пройдет
 //    public void exceptionTest() {
