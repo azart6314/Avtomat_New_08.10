@@ -1,7 +1,9 @@
-package Tests;
+package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class CalculatorTest extends BaseTest{
 
@@ -52,9 +54,9 @@ public class CalculatorTest extends BaseTest{
         Assert.assertEquals(calculator.sum(2, 3), 5, "Невернная сумма ...");
     }
 
-//    @Test (expectedExceptions = NullPointerException.class) //expectedExceptions - ожидаемый результат, если он пришел то тест пройдет
-//    public void exceptionTest() {
-//        List list = null;
-//        int size = list.size();
-//    }
+    @Test (expectedExceptions = NullPointerException.class) //expectedExceptions - ожидаемый результат, если он пришел то тест пройдет
+    public void exceptionTest() {
+        List list = null;
+        int size = list.size();
+    }
 }
