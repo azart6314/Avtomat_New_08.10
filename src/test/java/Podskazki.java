@@ -1,11 +1,4 @@
-import org.testng.Assert;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import tests.data.StaticProvider;
-import utils.Retry;
 
-import java.util.List;
 
 public class Podskazki {
 
@@ -68,6 +61,9 @@ public class Podskazki {
 //        System.out.println("Login is:" +Login);
 //        System.out.println("Psw is:" +psw);
 //    }
+
+                     //4 Урок Selenium
+     //driver.quit();  //секция закрывает браузер если нету команды в диспечере надо убить процесс
 
 
 

@@ -22,6 +22,19 @@
             <artifactId>testng</artifactId>
             <version>7.6.1</version>
         </dependency>
+
+        <!-- что бы запустить автоматическое скачивание версий браузера -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.6.0</version>
+        </dependency>
     </dependencies>
 
     <build>
