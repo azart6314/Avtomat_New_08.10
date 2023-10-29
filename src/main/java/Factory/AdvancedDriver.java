@@ -15,7 +15,7 @@ public class AdvancedDriver {
 
     public ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setHeadless(false);
+        //chromeOptions.setHeadless(false);  //после обновления в помки начала выдавать ошибку
         chromeOptions.addArguments("--disable-gpu");
         chromeOptions.addArguments("--ignore-certificate-errors");
         chromeOptions.addArguments("--silent");

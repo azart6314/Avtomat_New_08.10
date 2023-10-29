@@ -21,7 +21,7 @@ public class BrowsersFactory {
 
                 // ниже идут модернизация бразуреа. Праметры которые нам нужны для работы. Можно посмотреть настройки на steak over flou
                 ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.setHeadless(ReadProperties.isHeadless());
+                //chromeOptions.setHeadless(ReadProperties.isHeadless());
                 chromeOptions.addArguments("--disable-gpu"); // отключает графический процессор
                 //chromeOptions.addArguments("--window-size=1920,1200"); //размер открывшегося браузера
                 chromeOptions.addArguments("--ignore-certificate-errors"); //игнор сертификатов
@@ -45,7 +45,7 @@ public class BrowsersFactory {
 
     public WebDriver getDriver() { //getDriver метод который вернет уже полностью готовый драйвер для работы можно глянуть в  @Test public void browserFactoryWDTest() {
         driver.manage().window().maximize();
-        driver.manage().deleteAllCookies(); //всегда удоляет куки после запуска драйвера
+        //driver.manage().deleteAllCookies(); //всегда удоляет куки после запуска драйвера
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); //по умолчанию 10 сек стоит
 
         return driver;
