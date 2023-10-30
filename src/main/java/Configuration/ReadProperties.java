@@ -2,7 +2,7 @@ package Configuration;
 
 import java.io.IOException;
 import java.util.Properties;
-
+//class ReadProperties  вычитывает файлы которые хранятся в resources --> config.properties
 public class ReadProperties {
     private static final Properties properties;
 

@@ -1,31 +1,30 @@
 package tests;
 
-import Factory.AdvancedDriver;
-import Factory.BrowsersFactory;
 //import Factory.SimpleDriver;
+
+
+import Factory.BrowserFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class SimpleWDTest {
 
-//    @Test
+//    @Test // первый вид запуска ( самый отстой)
 //    public void simpleWDTest() {
 //        SimpleDriver simpleDriver = new SimpleDriver();
 //        WebDriver driver = simpleDriver.getDriver();
 //        driver.quit();  //секция закрывает браузер если нету команды в диспечере надо убить процесс
 //    }
-//    @Test
+//    @Test // второй вид запуска отстойный
 //    public void advancedWDTest() {
 //        AdvancedDriver advanceDriver = new AdvancedDriver();
 //        WebDriver driver = advanceDriver.getDriver();
 //        driver.quit();
 //    }
 
-    @Test
+    @Test // самый верный способ запуска веб дрыйвера
     public void browserFactoryWDTest() {
-        BrowsersFactory browserFactory = new BrowsersFactory();
+        BrowserFactory browserFactory = new BrowserFactory();
         WebDriver driver = browserFactory.getDriver();
         driver.quit();
     }
