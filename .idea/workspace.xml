@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3276a36-277d-46fa-9204-558893cdc417" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="TestNG_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2WUkMve1i4aw9LzwpPiMmNoWR6P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Teach_me_skills/Avtomat_New_08.10/Avtomat_New_08.10/src/main/java/Factory&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\main\java\Factory" />
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\test\resources" />
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\main\Configuration" />
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\test\java" />
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\test\resources" />
+      <recent name="D:\Teach_me_skills\Avtomat_New_08.10\Avtomat_New_08.10\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SimpleWDTest.browserFactoryWDTest">
+    <configuration name="CalculatorTest.testSum10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomat_New_08.10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSum10" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Teach_me_skills/Avtomat_New_08.10/Avtomat_New_08.10/src/test/resources/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomat_New_08.10" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/parallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleWDTest.advancedWDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomat_New_08.10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleWDTest" />
+      <option name="METHOD_NAME" value="advancedWDTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleWDTest.browserFactoryWDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomat_New_08.10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleWDTest" />
+      <option name="METHOD_NAME" value="browserFactoryWDTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleWDTest.simpleWDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomat_New_08.10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleWDTest" />
+      <option name="METHOD_NAME" value="simpleWDTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SimpleWDTest.simpleWDTest" />
+        <item itemvalue="TestNG.SimpleWDTest.browserFactoryWDTest" />
+        <item itemvalue="TestNG.SimpleWDTest.advancedWDTest" />
+        <item itemvalue="TestNG.D:/Teach_me_skills/Avtomat_New_08.10/Avtomat_New_08.10/src/test/resources/parallel.xml" />
+        <item itemvalue="TestNG.CalculatorTest.testSum10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3276a36-277d-46fa-9204-558893cdc417" name="Changes" comment="" />
+      <created>1696794505460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696794505460</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1696794660276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696794660276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial 2">
+      <created>1696846463488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696846463488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial 3">
+      <created>1696857347773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696857347773</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final">
+      <created>1696879308585</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696879308585</updated>
+    </task>
+    <task id="LOCAL-00005" summary="После исправления и обновления помки">
+      <created>1698602199866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698602199866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <MESSAGE value="initial 2" />
+    <MESSAGE value="initial 3" />
+    <MESSAGE value="Final" />
+    <MESSAGE value="После исправления и обновления помки" />
+    <option name="LAST_COMMIT_MESSAGE" value="После исправления и обновления помки" />
+  </component>
+</project>
