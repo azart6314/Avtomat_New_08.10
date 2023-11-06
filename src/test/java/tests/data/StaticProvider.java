@@ -14,4 +14,12 @@ public class StaticProvider {
 
         };
     }
+
+    @DataProvider(name = "dataFodDiv")
+    public static Object [][] datsForDivTest() {
+        return new Object[][] {
+                {10, 2, 5},
+                {20, 2, 10}
+        };
+    }
 }
