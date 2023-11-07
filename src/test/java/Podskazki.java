@@ -1,4 +1,5 @@
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 public class Podskazki {
 
@@ -64,6 +65,51 @@ public class Podskazki {
 
                      //4 Урок Selenium
      //driver.quit();  //секция закрывает браузер если нету команды в диспечере надо убить процесс
+
+
+
+                    //5 Урок
+//         WebDriver – действия
+//   driver.get("http://onliner.by");  -- Открыть Браузер/URL
+//   driver.close(); -- Закрыть вкладку браузера
+//   driver.quit(); -- Закрыть браузер
+//   driver.manage().window(). - работа с размерами экран
+//   driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); - работа с ожиданиями ( можно делать в браузер фэктори)
+
+//                    Локаторы
+//    driver.findElement(By.id(""));
+//  driver.findElement(By.name(""));
+//  driver.findElement(By.className(""));
+//  driver.findElement(By.tagName(""));
+//  driver.findElement(By.linkText(""));
+//  driver.findElement(By.partialLinkText(""));
+//  driver.findElement(By.cssSelector(""));
+//  driver.findElement(By.xpath(""));
+
+//                           WebElement – основные действия
+//    WebElement element = driver.findElement(By.id("some-id"));
+//    element.click(); - Клик
+//    element.sendKeys("text"); -  Введение текста
+//    element.submit(); - Подтверждение формы
+//    element.clear(); - Очистка текста внутри элемента
+//    driver.findElement(By.id("oCr")).sendKeys("80"); // можно не создавать веб элемент и сразу его заполнить
+//    weightInput.sendKeys(Keys .); - использование разных клавишь
+
+
+//                               sELECT
+//        electSex.selectByIndex(1); // хранится как масив в drop daun
+//        selectSex.selectByValue("0");
+//        selectSex.selectByVisibleText("женский")
+//        select.deselectAll(); - позволяет сбросить все выбранные значения
+//        select.getAllSelectedOptions(); - позволяет вернуть список опций в данный момент
+//        selectSex.deselectAll(); - позволяет отменить выбор
+//        select.getFirstSelectedOption(); - выбрать первую выбранную опцию
+//        select.getOption(); - получить список всех возможных значений данного поля
+//        selectSex.getWrappedElement() - получить обратно веб элемент который создан в селекте
+//        selectSex.isMultiple(); - позволяет ли поле выбирать несколько значений или только одно можно
+
+
+
 
 
 
