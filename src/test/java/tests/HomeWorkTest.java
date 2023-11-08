@@ -47,6 +47,23 @@ public class HomeWorkTest {
 
         Assert.assertEquals(driver.findElement(By.id("floor_cable_power")).getAttribute("value"), "11");
         Assert.assertEquals(driver.findElement(By.id("spec_floor_cable_power")).getAttribute("value"), "0");
+    }
+
+    @Test
+    public void calcBuilding(){
+        driver.get("https://calc.by/building-calculators/laminate.html");
+
+        WebElement selectWebElementLayingMethod = driver.findElement(By.id("laying_method_laminate"));
+        Select selectLayingMethod = new Select(selectWebElementLayingMethod);
+        selectLayingMethod.selectByValue("1");
+
+        driver.findElement(By.id("ln_room_id")).sendKeys("500");
+        driver.findElement(By.id("wd_room_id")).sendKeys("400");
+        driver.findElement(By.id("ln_lam_id")).sendKeys("2000");
+        driver.findElement(By.id("n_packing")).sendKeys("8");
+        driver.findElement(By.id("indent_walls_id")).sendKeys("10");
+        driver.findElement(By.id("direction-laminate-id1")).click();
+        driver.findElement(By.partialLinkText("javascript:void")).click();
 
 
     }
