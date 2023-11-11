@@ -110,6 +110,21 @@ public class Podskazki {
 //        selectSex.isMultiple(); - позволяет ли поле выбирать несколько значений или только одно можно
 
 
+                                //`Assert.assertTrue` и `Assert.assertEquals`
+
+            //Используйте Assert.assertEquals, когда нужно точно сравнить два значения.
+            //Используйте Assert.assertTrue, когда проверяется булево условие или выражение.
+                    //Истину
+    //1. `Assert.assertTrue` - Этот метод принимает булево значение (true или false) и проверяет, что оно истинно.
+    // Если переданное значение истинно, то тест будет продолжаться без ошибок. Если значение ложно, то тест будет прерван
+    // и отмечен как неудачный.
+    //Assert.assertTrue(driver.findElement(By.cssSelector("div.intro")).isDisplayed());
+
+                    //Равенство
+    //2. `Assert.assertEquals` - Этот метод сравнивает два значения на равенство. Если значения равны, то тест продолжится без ошибок.
+    // Если значения отличаются, то тест будет прерван и отмечен как неудачный, а также будет выведено сообщение с информацией об отличиях.
+    //  Assert.assertEquals(6, driver.findElements(By.cssSelector("h1, p")).size(), 8);
+
                                 //Селекторы
     //<p href=”value”> (p -тег; href- атрибут; value -значение атрибута)
     // id - #id (By.cssSelector); - [id='My-Address']  (By.cssSelector); - id (By.id)
@@ -153,7 +168,7 @@ public class Podskazki {
 //        Assert.assertTrue(driver.findElement(By.cssSelector("div.intro")).isDisplayed());
 //
 //    //поиск нескольких элементо
-//    //Поск элемента по clsassname c с учетом иерархий
+//    //Поск элемента по clsass name c с учетом иерархий
 //    //devToll - #Lastname .markup (с пробелом между id и classname )  еще - .intro .markup (по ирархий будет от радительской к дочерней в рамках родительского элемента)
 //        Assert.assertEquals(6, driver.findElements(By.cssSelector("#Lastname .markup")).size(), 2); //size потмоу что много элементов на странице таких
 //
@@ -237,6 +252,43 @@ public class Podskazki {
 
 
                             //XPath ЛОКАТОРЫ
+
+//     driver.get("D:\\Teach_me_skills\\Avtomat_New_08.10\\Avtomat_New_08.10\\src\\test\\resources\\index.html");
+//
+//    //https://www.w3schools.com/xml/xpath_axes.asp
+//    // 6урок 2.00
+//
+//    // - /.. подняться на уровень выше
+    //devToll- //div[text()='Sauce Labs Backpack']  - поиск по тексту на страницу 1.Тэг 2.Текст на странице
+    // <div class="inventory_item_name">Sauce Labs Backpack</div> пример со страницы
+//
+//    // Поиск родителя у элемента с тэгом h1
+//    //devToll-  //span[@id='Lastname']/parent::* (пример из урока)
+//        Assert.assertTrue(driver.findElement(By.xpath("//h1/..")).isDisplayed());
+//        Assert.assertTrue(driver.findElement(By.xpath("//h1/parent::*")).isDisplayed());
+//
+//    // Поиск всех предков с тэгом div у элемента с тэгом h1
+//    //devToll- //span[@id='Lastname']/ancestor::*
+//        Assert.assertTrue(driver.findElement(By.xpath("//h1/ancestor::div")).isDisplayed());
+//
+//    // Использование child - непосредственно дочерние элементы с тэго a от div
+//    // devToll- //span[@id='Lastname']/span  (пример из урока)
+//        Assert.assertTrue(driver.findElement(By.xpath("//div/a")).isDisplayed());
+//        Assert.assertTrue(driver.findElement(By.xpath("//div/child::a")).isDisplayed());
+//
+//    // Использование child - все дочерние элементы с тэго a от div
+//        Assert.assertTrue(driver.findElement(By.xpath("//div//a")).isDisplayed());
+//        Assert.assertTrue(driver.findElement(By.xpath("//div/descendant::a")).isDisplayed());
+//
+//    //Использование following - Выбирает всё в документе после закрытия тэга текущего узла
+//        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='dialog-title']/following::form")).isDisplayed());
+//
+//    //Использование preceding- Выбирает все узлы, которые появляются перед текущим узлом в документе
+//        Assert.assertTrue(driver.findElement(By.xpath("//*[@class=\"dialog-title\"]/preceding::form")).isDisplayed());
+//
+//    //Использование preceding-sibling - Выбирает все узлы одного уровня до текущего узла
+//        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='dialog-title']/preceding-sibling::form")).isDisplayed());
+
 
 
 

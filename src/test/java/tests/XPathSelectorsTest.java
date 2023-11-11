@@ -27,7 +27,6 @@ public class XPathSelectorsTest {
 
         /// сайт где описаны XPath https://www.w3schools.com/xml/xpath_syntax.asp
 
-
         //<p href=”value”> (p -тег; href- атрибут; value -значение атрибута)
         // Значение атрибута лучше брать в ковычки
         // // - два слэша это значит пропустить не нужные уровни ( все XPath начинаются с // так как первый тэг html
