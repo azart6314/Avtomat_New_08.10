@@ -127,6 +127,29 @@ public class Podskazki {
 
                                 //Селекторы
     //<p href=”value”> (p -тег; href- атрибут; value -значение атрибута)
+
+//    Поиск элемента по id: "[id='yourId']"
+//    Поиск элемента по name: "[name='yourName']"
+//    Поиск элемента по classname: ".yourClassName"
+//    Поиск элемента по tagname: "yourTagName"
+//    Поиск элемента по тексту ссылки: "a:contains('Your Link Text')"
+//    Поиск элемента по XPath: "yourXPath"
+
+//                        XPath-запросы.
+//    Поиск по атрибуту: $$("//tag[@attribute='value']")
+//    Поиск по тексту: $$("//tag[text()='text']")
+//    Поиск по частичному совпадению атрибута: $$("//tag[contains(@attribute,'text')]")
+//    Поиск по частичному совпадению текста: $$("//tag[contains(text(),'text')]")
+//    Поиск с использованием ancestor: $$("//*[text()='Enterprise Testing']//ancestor::div")
+//    Поиск с использованием descendant: $$("//tag[text()='Parent']//descendant::childTag")
+//    Поиск с использованием following: $$("//tag[text()='Current']//following::nextTag")
+//    Поиск с использованием parent: $$("//tag[text()='Child']//parent::parentTag")
+//    Поиск с использованием preceding: $$("//tag[text()='Current']//preceding::prevTag")
+//    Поиск элемента с условием AND: $$("//input[@class='_2zrpKA _1dBPDZ' and @type='text']")
+
+
+
+
     // id - #id (By.cssSelector); - [id='My-Address']  (By.cssSelector); - id (By.id)
     // class name - .newsletter (cssSelector)можно множество; - newsletter (className);
     // tage name - //h1 (cssSelector и tagName) по селектору именно этот тэг в не текста
