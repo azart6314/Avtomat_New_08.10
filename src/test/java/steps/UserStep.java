@@ -14,9 +14,10 @@ public class UserStep extends BaseStep {
         loginPage = new LoginPage(driver);
     }
 
-    public ProductsPage login(String email, String psw){
-        loginPage.successfulLogin(email, psw);
-        return new ProductsPage(driver);
+    public void successfulLogin (String email, String psw) {
+        loginPage.getEmailInput().sendKeys(email);
+        loginPage.getPasswordInput().sendKeys(psw);
+        loginPage.getLoginButton().click();
     }
 
     public ProductsPage logout() {

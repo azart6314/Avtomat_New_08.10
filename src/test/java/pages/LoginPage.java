@@ -37,11 +37,7 @@ public class LoginPage extends BasePage {
         return driver.findElement(loginButtonLocator);
     }
 
-    public void successfulLogin (String email, String psw) {
-        getEmailInput().sendKeys(email);
-        getPasswordInput().sendKeys(psw);
-        getLoginButton().click();
-    }
+
 
 
 }

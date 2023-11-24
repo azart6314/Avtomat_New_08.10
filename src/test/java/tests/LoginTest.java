@@ -10,6 +10,17 @@ import steps.UserStep;
 public class LoginTest extends BaseTest {
 
 
+    @Test
+    public void test1() {
+        userStep.successfulLogin(ReadProperties.username(), ReadProperties.password());
+        productsStep.addFirstProductToCart();
+        productsStep.addSecondProductToCart();
+        productsStep.backToProductsPage();
+        
+
+    }
+
+
 
 
 

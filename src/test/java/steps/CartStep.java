@@ -7,7 +7,7 @@ import pages.CartPage;
 import pages.ProductsPage;
 
 public class CartStep extends BaseStep {
-protected   CartPage cartPage;
+ protected   CartPage cartPage;
 
     public CartStep(WebDriver driver) {
         super(driver);

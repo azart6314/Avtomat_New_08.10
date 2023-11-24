@@ -32,15 +32,15 @@ public class CheckoutInformationPage extends BasePage {
 
 
     //блок атамарных методов
-    private WebElement getFirstName (){return driver.findElement(firstNameLocator);}
-    private WebElement getLastName (){return driver.findElement(lastNameLocator);}
-    private WebElement getPostalCod (){return driver.findElement(postalCodLocator);}
+    public WebElement getFirstName (){return driver.findElement(firstNameLocator);}
+    public WebElement getLastName (){return driver.findElement(lastNameLocator);}
+    public WebElement getPostalCod (){return driver.findElement(postalCodLocator);}
 
-    private WebElement getCancelButton () {return driver.findElement(cancelButtonLocator);}
-    private WebElement getContinueButton (){return driver.findElement(continueButtonLocator);}
-    private WebElement getCartButton () {return driver.findElement(cartButtonLocator);}
+    public WebElement getCancelButton () {return driver.findElement(cancelButtonLocator);}
+    public WebElement getContinueButton (){return driver.findElement(continueButtonLocator);}
+    public WebElement getCartButton () {return driver.findElement(cartButtonLocator);}
 
-    private void openPageByUrl (){
+    public void openPageByUrl (){
         openPageByUrl(pagePath);
     }
 

@@ -29,7 +29,7 @@ public class ProductsPage extends BasePage {
 
     //3
     private final By thirdProductNameLocator = By.xpath("//div[@class='inventory_item_name ' and text()='Sauce Labs Backpack']");
-    private final By thirdProductAddCardLocator = By.name("[name='add-to-cart-sauce-labs-bolt-t-shirt']");
+    private final By thirdProductAddCardLocator = By.id("remove-sauce-labs-bolt-t-shirt");
     private final By thirdProductRemoveLocator = By.id("remove-sauce-labs-bolt-t-shirt");
     private final By thirdProductPriceLocator = By.xpath("//*[@id=\"inventory_container\"]/div/div[3]/div[2]/div[2]/div/text()[2]");
 

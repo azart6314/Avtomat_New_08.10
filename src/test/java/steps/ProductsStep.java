@@ -2,6 +2,7 @@ package steps;
 
 import baseEntities.BaseStep;
 import org.openqa.selenium.WebDriver;
+import pages.CartPage;
 import pages.DetailedProductPage;
 import pages.ProductsPage;
 
@@ -43,6 +44,11 @@ public class ProductsStep extends BaseStep {
 
     public void backToProductsPage () {
         productsPage.getBackToProduct().click();
+    }
+    
+    public CartPage goToCard () {
+        productsPage.getCartButton().click();
+        return new CartPage(driver);
     }
 
 
