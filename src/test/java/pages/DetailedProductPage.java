@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class DetailedProductPage extends BasePage {
 
-    private final By backToProductsLocator = By.name("[name='back-to-products']");
+    private final By backToProductsIconLocator = By.name("[name='back-to-products']");
 
     public DetailedProductPage(WebDriver driver) {
         super(driver);
@@ -15,10 +15,10 @@ public class DetailedProductPage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return backToProductsLocator;
+        return backToProductsIconLocator;
     }
 
     public WebElement backToProducts() {
-       return driver.findElement(backToProductsLocator);
+       return driver.findElement(backToProductsIconLocator);
     }
 }

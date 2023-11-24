@@ -7,7 +7,7 @@ import pages.LoginPage;
 import pages.ProductsPage;
 
 public class UserStep extends BaseStep {
-    private LoginPage loginPage;
+    protected LoginPage loginPage;
 
     public UserStep(WebDriver driver) {
         super(driver);

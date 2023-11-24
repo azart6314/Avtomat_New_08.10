@@ -36,7 +36,7 @@ public class CartPage extends BasePage {
         return driver.findElement(firstProductNameLocator);
     }
     public WebElement getSecondProductName () {return driver.findElement(secondProductNameLocator);}
-    public WebElement getSecondProductRemove() {return driver.findElement(secondProductRemoveLocator);}
+    public WebElement getBatonSecondProductRemove() {return driver.findElement(secondProductRemoveLocator);}
     public WebElement getThirdProductName () {return driver.findElement(thirdProductNameLocator);}
 
     public WebElement continueShopping (){return driver.findElement(continueShoppingLocator);}
