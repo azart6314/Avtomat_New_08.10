@@ -1,28 +1,35 @@
 package steps;
 
 import baseEntities.BaseStep;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import pages.DashboardPage;
 import pages.LoginPage;
-import pages.ProductsPage;
 
 public class UserStep extends BaseStep {
-    protected LoginPage loginPage;
+    private LoginPage loginPage;
 
     public UserStep(WebDriver driver) {
         super(driver);
+
         loginPage = new LoginPage(driver);
     }
 
-    public void successfulLogin (String email, String psw) {
+    public void login(String email, String psw) {
         loginPage.getEmailInput().sendKeys(email);
-        loginPage.getPasswordInput().sendKeys(psw);
-        loginPage.getLoginButton().click();
+        loginPage.getPassword().sendKeys(psw);
+        loginPage.getLogInButton().click();
     }
 
-    public ProductsPage logout() {
-        driver.findElement(By.id("react-burger-menu-btn")).click();
-        driver.findElement(By.id("logout_sidebar_link")).click();
-        return new ProductsPage(driver);
+    public DashboardPage loginSuccessful(String email, String psw) {
+        login(email, psw);
+
+        return new DashboardPage(driver);
     }
+
+    public LoginPage loginIncorrect(String email, String psw) {
+        login(email, psw);
+
+        return loginPage;
+    }
+
 }
