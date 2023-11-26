@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest {
         productsStep.addFirstProductToCart();
         productsStep.addSecondProductToCart();
         productsStep.backToProductsPage();
-        
+
 
     }
 
