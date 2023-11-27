@@ -43,7 +43,7 @@ public class WaitsService { //класс в которы добавляем вс
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
 
-    //явная ожмдалка которая просто проверяет что элемент находится в дом модели и не проверяет ее состояние
+    //явная ожидалка которая просто проверяет что элемент находится в дом модели и не проверяет ее состояние
     public WebElement waitForExists(By locator) {
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }

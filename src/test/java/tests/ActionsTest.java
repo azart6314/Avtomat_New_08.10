@@ -19,7 +19,7 @@ public class ActionsTest extends BaseTest {
 
         List<WebElement> targetElements = waitsService.waitForAllVisibleElementsLocatedBy(By.cssSelector(".figure"));//используем ожидалку которая ждем отображение всех элементов .figure
         //делаем ховер
-        Actions actions = new Actions(driver);// иниацилизируем актионс
+        Actions actions = new Actions(driver);// иниацилизируем Actions
         actions // в самом экшене проверок нет. Тут только действие
                 .moveToElement(targetElements.get(0), 10, 10)//наведение мышки. Добавили смещение на 10 пикселей в право и вниз
                 .click(waitsService.waitForExists(By.cssSelector("[href='/users/1']"))) //проверка что именно туда навели и кликнули
