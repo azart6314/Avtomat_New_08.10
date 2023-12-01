@@ -27,6 +27,22 @@ public class WaitsService { //класс в которы добавляем вс
         wait = new WebDriverWait(driver, timeout); //перед драйвер и время каоторо епридет
     }
 
+    //моя ожидалка что елемент отображается id
+    public WebElement waitForVisibilityID(By id) {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(id));
+    }
+
+    public WebElement waitForVisibilityText(By cssSelector ) {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(cssSelector));
+    }
+
+    //моя ожидалка что елемент исчез
+    public boolean waitForElementInvisibleCss(By cssSelector) {
+        return wait.until(ExpectedConditions.invisibilityOfElementLocated(cssSelector));//делаем проверку по веб элементу(могем по локатору но тут такое себе ) //invisibilityOf можно менять
+    }
+
+
+
 
     //иницилизируем клас и используем в атомарных методах (BY)
     public WebElement waitForVisibilityBy(By by) {//поиск и проверка на отображения элемента на странице (именно на экране visibility)
@@ -37,6 +53,8 @@ public class WaitsService { //класс в которы добавляем вс
     public boolean waitForElementInvisible(WebElement webElement) {
         return wait.until(ExpectedConditions.invisibilityOf(webElement));//делаем проверку по веб элементу(могем по локатору но тут такое себе ) //invisibilityOf можно менять
     }
+
+
 
     //явная ожидалка. Ждет отображение всех элементов
     public List<WebElement> waitForAllVisibleElementsLocatedBy(By locator) {
