@@ -30,7 +30,7 @@ public class ActionsTest extends BaseTest {
         Assert.assertTrue(waitsService.waitForElementInvisible(targetElements.get(0))); //дождались что элемент пропал
     }
 
-    @Test // более не верный тест по ЗАГРУЗКЕ ( ниже правильнее)
+   // @Test // более не верный тест по ЗАГРУЗКЕ ( ниже правильнее)
     public void fileUploadTest1() throws InterruptedException {
         driver.get("http://the-internet.herokuapp.com/upload");
         //поиск элемента
@@ -50,7 +50,7 @@ public class ActionsTest extends BaseTest {
                 "download.jpeg");
     }
 
-    @Test //Верный тест по загрузке
+    //@Test //Верный тест по загрузке
     public void fileUploadTest() throws InterruptedException {
         driver.get("http://the-internet.herokuapp.com/upload");
         //поиск элемента

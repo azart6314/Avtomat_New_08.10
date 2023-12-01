@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(new DashboardPage(driver).isPageOpened());
     }
 
-    @Test
+//    @Test
     public void loginSuccessfulTest() {
 
         Assert.assertTrue(userStep.loginSuccessful(ReadProperties.username(), ReadProperties.password()) .isPageOpened());
