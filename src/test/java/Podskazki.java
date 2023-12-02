@@ -313,7 +313,17 @@ public class Podskazki {
 //        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='dialog-title']/preceding-sibling::form")).isDisplayed());
 
 
-                                //8 урок
+                                //9 урок ALLURE
+    //allure serve - что бы открыть в терменале отчет
+    //после того как мы создали файл allure.properties запуск репорта производится allure serve target/allure-results/ - с указание где он хранится
+    //ctrl- c  завершить отчет
+
+    // -- довление в помку репорта что бы было видно
+//    <dependency>
+//            <groupId>io.qameta.allure</groupId>
+//            <artifactId>allure-testng</artifactId>
+//            <version>2.23.0</version>
+//        </dependency>
 
 
 
